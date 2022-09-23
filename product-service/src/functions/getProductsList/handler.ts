@@ -7,9 +7,7 @@ import { middyfy } from '@libs/lambda';
 import { products } from '@functions/mock/mock';
 
 export const getProductsList: ValidatedEventAPIGatewayProxyEvent<void> = async () => {
-  return formatJSONResponse({
-    data: products,
-  });
+  return formatJSONResponse(products);
 };
 
 export const main = middyfy(getProductsList);
