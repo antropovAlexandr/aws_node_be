@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "7567ec4b-b10c-48c5-9345-fc73c48a80aa1"
+          },
+          "description": {
+            "S": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system"
+          },
+          "price": {
+            "N": "64"
+          },
+          "title": {
+            "S": "WD 2TB Elements Portable External Hard Drive - USB 3.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "7567ec4b-b10c-48c5-9345-fc73c48a80aa3"
+          },
+          "description": {
+            "S": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability."
+          },
+          "price": {
+            "N": "123"
+          },
+          "title": {
+            "S": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5"
+          }
+        }
+      }
+    },
+	  {
+		  "PutRequest": {
+			  "Item": {
+				  "id": {
+					  "S": "7567ec4b-b10c-48c5-9345-fc73c48a80aa4"
+				  },
+				  "description": {
+					  "S": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty"
+				  },
+				  "price": {
+					  "N": "114"
+				  },
+				  "title": {
+					  "S": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive"
+				  }
+			  }
+		  }
+	  }
+  ]
+}
